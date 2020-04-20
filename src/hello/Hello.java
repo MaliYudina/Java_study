@@ -1,3 +1,9 @@
+/**
+ * This module welcomes a user.
+ * asks the name of the user.
+ * Answers using name.
+ */
+
 package hello;
 
 import java.util.Scanner;
