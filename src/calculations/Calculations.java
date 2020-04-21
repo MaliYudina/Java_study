@@ -1,3 +1,7 @@
+/**
+ * This module calculates rectangle and square sizes
+ */
+
 package calculations;
 
 
@@ -9,23 +13,14 @@ public class Calculations {
         System.out.println("2" + "2");
         System.out.println("2" + 2);
 
-        Square s = new Square();
-        s.length = 5;
+        Square s = new Square(5);
 
-        Rectangle r = new Rectangle();
-        r.length = 12;
-        r.width = 2;
+        Rectangle r = new Rectangle(6, 12);
 
-        System.out.println("Rectangle total sqm is " + area(r));
-        System.out.println("Square total sqm is " + area(s));
-       
+        System.out.println("Rectangle total sqm is " + r.area());
+        System.out.println("Square total sqm is " + s.area());
+
     }
 
-    public static double area(Square s) {
-        return s.length * s.length;
-    }
 
-    public static double area(Rectangle r) {
-        return r.length * r.width;
-    }
 }
