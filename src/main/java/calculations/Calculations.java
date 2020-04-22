@@ -2,7 +2,7 @@
  * This module calculates rectangle and square sizes
  */
 
-package calculations;
+package main.java.calculations;
 
 
 public class Calculations {

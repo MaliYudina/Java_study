@@ -3,7 +3,7 @@
  * the further area calculation
  */
 
-package calculations;
+package main.java.calculations;
 
 public class Rectangle {
     public double length;

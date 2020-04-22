@@ -4,7 +4,7 @@
  * Answers using name.
  */
 
-package hello;
+package main.java.hello;
 
 import java.util.Scanner;
 
